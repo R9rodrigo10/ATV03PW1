@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+.recursos{
+    display: grid;
+    text-align: center;
+}
+
+@keyframes transicao{
+0%,100%{
+    opacity: 1;
+}
+
+50%{
+    opacity: 0;
+}
+}
+
+.animacao{
+
+    
+    width: 1200px;
+    height: 500px;
+    left: 30px;
+}
+@keyframes transicao{
+    0%,100%{
+        opacity: 1;
+    }
+    
+    50%{
+        opacity: 0;
+    }
+    }
+
+.azul{
+    position: absolute;
+    animation: transicao 10s  infinite;
+}
+@keyframes transicao{
+    0%,100%{
+        opacity: 1;
+    }
+    
+    50%{
+        opacity: 0;
+    }
+    }
+.preto{
+    position: absolute;
+    animation: transicao 20s  infinite;
+}
+@keyframes transicao{
+    0%,100%{
+        opacity: 1;
+    }
+    
+    50%{
+        opacity: 0;
+    }
+    }
+        
+    
+.rosa{
+    position: absolute;
+    animation: transicao 300s  infinite;
+}
+@keyframes transicao{
+    0%,100%{
+        opacity: 1;
+    }
+    
+    50%{
+        opacity: 0;
+    }
+    }
+        
+    
+.verde{
+    position: absolute;
+    animation: transicao 40s  infinite;
+}
+@keyframes transicao{
+    0%,100%{
+        opacity: 1;
+    }
+    
+    50%{
+        opacity: 0;
+    }
+    }
+        
+    
+.branco{
+    position: absolute;
+    animation: transicao 50s  infinite;
+}
+@keyframes transicao{
+    0%,100%{
+        opacity: 1;
+    }
+    
+    50%{
+        opacity: 0;
+    }
+    }
+.comeco{
+    text-align: center;
+}
+.container{
+    display: flex;
+     gap: 50px;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+
+
+
+}    
+.item{
+    text-align: center;
+    padding: 20px;
+} 
+.linha{
+    text-align: center;
+}
+.cor{
+    background-color: white;
+    color: black;
+}
